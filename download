@@ -1,0 +1,45 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# Logs
+*.log
+logs/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Local config with secrets (never commit real passwords)
+application-local.properties
+application-secret.properties
+.env
+
+# H2 file databases (only if you switch from in-memory to file mode)
+*.mv.db
+*.trace.db
